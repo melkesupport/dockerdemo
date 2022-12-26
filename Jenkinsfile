@@ -17,7 +17,7 @@ pipeline {
         }
         stage('push image') {
             steps{
-                sh 'docker push ylmt/flaskapp:$BUILD_NUMBER'
+                sh 'docker push melke/flaskapp:$BUILD_NUMBER'
             }
         }
 }
